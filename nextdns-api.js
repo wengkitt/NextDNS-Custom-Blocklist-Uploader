@@ -1,6 +1,6 @@
 const NEXTDNS_ENDPOINT = "https://api.nextdns.io";
-const API_KEY = "";
-const PROFILE_ID = "";
+const API_KEY = ""; // Replace this with your NextDNS API. You can obtain the API from NextDNS -> Account
+const PROFILE_ID = ""; // Replace this with your NextDNS Profile ID. You can obtain the ID from Setup page , under EndPoint.
 const API_KEY_HEADER = {
   "X-Api-Key": API_KEY,
 };
