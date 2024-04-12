@@ -8,8 +8,10 @@ async function uploadDomainToNextDNS() {
     // Reset deny list before uploading new domains
     await resetDenyList();
 
-    console.log("Start downloading blocklist files...");
-    await downloadFiles(BLOCKLIST_URLS);
+    if (BLOCKLIST_URLS.length != 0) {
+      console.log("Start downloading blocklist files...");
+      await downloadFiles(BLOCKLIST_URLS);
+    }
 
     const denyDomainList = parseFile();
     const denyFormatDomainList = denyDomainList.map((data) => ({

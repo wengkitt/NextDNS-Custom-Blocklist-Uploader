@@ -1,6 +1,7 @@
 import https from "https";
 import fs from "fs";
 import { join } from "path";
+import { error } from "console";
 
 export async function downloadFiles(fileUrls) {
   const downloadFolder = "./blocklist";
@@ -48,6 +49,11 @@ export function parseFile() {
   const fileNames = getAllFilesInDirectory("./blocklist");
 
   const domains = [];
+
+  if (fileNames.length == 0) {
+    throw error("No file found.");
+  }
+
   fileNames.forEach((fileName) => {
     const content = fs.readFileSync(`./blocklist/${fileName}`, "utf8");
     const lines = content.split("\n");
