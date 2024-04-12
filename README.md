@@ -10,7 +10,7 @@ The NextDNS Custom Blocklist Uploader is a script that allows users to upload bl
 2. Clone the project to your local machine.
 3. Update the required API Key and Profile ID in `nextdns-api.js`.
 4. Add the blocklist URL to the array in `index.js`. (Currently supports TXT file format only)
-5. Run `npm run start`. The script will automatically download the blocklist file to the `blocklist` folder and start uploading the domains to NextDNS's denylist.
+5. Run `npm run start`. The script will remove everything in the denylist, automatically download the blocklist file to the `blocklist` folder and start uploading the domains to NextDNS's denylist.
 6. After the upload process is complete, you can check the results on the NextDNS Denylist page.
 
 ## Contributing
