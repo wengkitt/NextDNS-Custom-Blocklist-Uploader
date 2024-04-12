@@ -1,14 +1,14 @@
 {
   "name": "nextdns-custom-blocklist-uploader",
   "version": "1.0.0",
-  "description": "A nodejs script to easily upload custom blocklist to NextDNS.",
+  "description": "A Node.js script to easily upload custom blocklists to NextDNS.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "author": "Tang Weng Kitt",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "private": true,
   "type": "module"
 }
