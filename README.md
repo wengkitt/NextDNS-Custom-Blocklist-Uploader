@@ -23,5 +23,8 @@ This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
 ## Contact
 
-- [Tang Weng Kitt](wengkitt969696@gmail.com)
+Feel free to reach out if you have any questions or suggestions!
+
+- **Tang Weng Kitt**
+  - Email: [wengkitt969696@gmail.com](mailto:wengkitt969696@gmail.com)
 - Project Link: [NextDNS Custom Blocklist Uploader](https://github.com/wengkitttt/NextDNS-Custom-Blocklist-Uploader)
